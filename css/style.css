@@ -1,30 +1,18 @@
-body{
-  	background: #FFFF99;
+.padre {
+  margin: 120px 60px 30.5px 60px;
+  padding: 40px 20px 70px 100px;
+  border: 20px solid #9900FF;
+  border-left: 10px solid #9900FF;
+  border-right: 10px solid #9900FF;
+  background-color: #F9CB9C;
 }
 
-div{
-  	width: 300px;
-  	height: 50px;
-  	margin-top: 120px;
-  	margin-left:60px; 
-  	margin-bottom:30.5;
-  	border-right: 10px solid blue;
-  	border-left: 10px solid blue;
-  	border-top: 20px solid blue;
-  	border-bottom: 20px solid blue;
-  	padding-left:  100px;
-    padding-right: 20px;
-    padding-top: 40px;
-    padding-bottom: 70px;
-}
-
-p{
-	border: 5px  dashed black;
-	align: center;
-}
-
-span{
-  background: white;
+.hijo {
+  border: 2px dashed #38761D;
+  background-color: white;
+  text-align: center; 
+  line-height: 50px;
+  height: 50px;
 }
 
 
